@@ -78,3 +78,22 @@ NammaKural follows a voice-to-insight pipeline that transforms natural speech in
 │ 💡 Business         │
 │     Insights        │
 └─────────────────────┘
+## 🎬 Demo
+
+### Voice-to-Transaction
+
+A user speaks a business transaction naturally, and NammaKural converts the voice input into structured transaction data.
+
+> "I bought rice for 250 rupees."
+
+The system extracts information such as:
+
+- Transaction type: Expense
+- Item: Rice
+- Amount: ₹250
+
+### Dashboard
+
+The processed transaction is stored in MySQL and visualized through an interactive Streamlit dashboard.
+
+📸 Screenshots coming soon.
