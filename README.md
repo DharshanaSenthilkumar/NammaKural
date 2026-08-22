@@ -218,25 +218,64 @@ database_schema.sql
 
 5. Start the Dashboard
 streamlit run dashboard.py
-🎬 Demo
-🎤 Voice → Transaction
+## 🎬 Demo
+
+### 🎤 Voice → Transaction
 
 A user speaks a transaction naturally:
 
-"I bought rice for 250 rupees."
+> **"I bought rice for 250 rupees."**
 
 NammaKural converts the voice input into structured transaction data.
 
-Field	Result
-Type	Expense
-Item	Rice
-Amount	₹250
+| Field | Result |
+| --- | --- |
+| Type | Expense |
+| Item | Rice |
+| Amount | ₹250 |
 
 The transaction is then stored in MySQL and reflected in the Streamlit dashboard.
 
-📸 Screenshots
+---
 
-Screenshots of the voice input, transaction processing, dashboard, and analytics will be added soon.
+## 📸 Product Showcase
+
+### 📊 Dashboard Overview
+
+![NammaKural Dashboard](screenshots/dashboard-overview.png)
+
+---
+
+### 🎤 Voice Input
+
+![NammaKural Voice Input](screenshots/voice-input.png)
+
+---
+
+### 💰 Cash Flow
+
+![NammaKural Transaction](screenshots/cash-flow.png)
+
+---
+
+### 📈 Business Analytics
+
+![NammaKural Analytics](screenshots/analytics.png)
+
+---
+
+### 💡 AI Insights
+
+![NammaKural Smart Insights](screenshots/ai-insights.png)
+
+### 🧠 Analytics
+
+![NammaKural Analytics](screenshots/Business-analytics.png)
+
+### ⚙️ Business records
+
+![NammaKural Analytics](screenshots/Business-records.png)
+
 
 🔐 Security
 
