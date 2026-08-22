@@ -254,7 +254,7 @@ The transaction is then stored in MySQL and reflected in the Streamlit dashboard
 
 ### 💰 Cash Flow
 
-![NammaKural Transaction](screenshots/cash-flow.png)
+![NammaKural Cash Flow](screenshots/cash-flow.png)
 
 ---
 
@@ -268,13 +268,17 @@ The transaction is then stored in MySQL and reflected in the Streamlit dashboard
 
 ![NammaKural Smart Insights](screenshots/ai-insights.png)
 
-### 🧠 Analytics
+---
 
-![NammaKural Analytics](screenshots/Business-analytics.png)
+### 🧠 Detailed Analytics
 
-### ⚙️ Business records
+![NammaKural Detailed Analytics](screenshots/Business-analytics.png)
 
-![NammaKural Analytics](screenshots/Business-records.png)
+---
+
+### ⚙️ Business Records
+
+![NammaKural Business Records](screenshots/Business-records.png)
 
 
 🔐 Security
