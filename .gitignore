@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+
+.env
+
+.venv/
+venv/
+
+transactions.csv
+
+*.wav
+*.ogg
+*.mp3
+*.m4a
+
+.streamlit/secrets.toml
