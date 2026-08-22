@@ -33,19 +33,48 @@ NammaKural processes the voice input and converts it into structured transaction
 
 ---
 
-## 🔄 How NammaKural Works
+## 🏗️ System Architecture
+
+NammaKural follows a voice-to-insight pipeline that transforms natural speech into structured business information.
 
 ```text
-🎤 Voice Input
-      ↓
-🗣️ Speech-to-Text
-      ↓
-🧠 Transaction Parser
-      ↓
-💰 Structured Transaction
-      ↓
-🗄️ MySQL Database
-      ↓
-📊 Streamlit Dashboard
-      ↓
-💡 Business Insights
+┌─────────────────────┐
+│   🎤 Voice Input    │
+│  Business Owner     │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 🗣️ Speech-to-Text   │
+│      Whisper        │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 🧠 Transaction      │
+│      Parser         │
+│   Python / NLP      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 💰 Structured       │
+│    Transaction      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 🗄️ MySQL Database   │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 📊 Streamlit        │
+│     Dashboard       │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ 💡 Business         │
+│     Insights        │
+└─────────────────────┘
