@@ -117,6 +117,13 @@ Provides:
 
 ---
 
+## 🎬 Demo Video
+
+See NammaKural in action:
+
+[▶️ Watch the NammaKural Demo](demo/NammaKural-Demo.mp4)
+
+---
 ## 📸 Product Showcase
 
 ### 📊 Dashboard Overview
